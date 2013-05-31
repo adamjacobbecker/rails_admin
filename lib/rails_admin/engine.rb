@@ -9,9 +9,6 @@ require 'rails'
 require 'rails_admin'
 require 'remotipart'
 
-SafeYAML::OPTIONS[:suppress_warnings] = true
-SafeYAML::OPTIONS[:default_mode] = :unsafe
-
 module RailsAdmin
   class Engine < Rails::Engine
     isolate_namespace RailsAdmin
